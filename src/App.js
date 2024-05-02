@@ -8,12 +8,13 @@ import ActionForm from './components/ActionForm';
 import ShoppingCart from './components/ShoppingCart';
 import PostsUseFormStatus from './components/FormStatus';
 import AddToCartForm from './components/AddToFormCart';
+import OptimisticMessages from './components/OptimisticMessages';
 
 
 function App() {
   return (
     <>
-    <a className='px-12 cursor-pointer underline-offset-1 text-blue-500' target='_blank' href='https://github.com/highonranking/react-19-handson/'>repo</a>
+    <a className='px-12 mb-12 cursor-pointer underline-offset-1 text-blue-500' target='_blank' href='https://github.com/highonranking/react-19-handson/'>repo</a>
     <div className=''> 
     <div className="App flex justify-center my-auto ">
       <Profile/>
@@ -32,7 +33,8 @@ function App() {
     <PostsUseFormStatus/>
 
     <AddToCartForm/>
-    
+
+  <OptimisticMessages/>    
     </div> 
 
 
