@@ -1,4 +1,5 @@
-import { use, Suspense } from 'react';
+import { use, Suspense, useContext } from 'react';
+
 
 const fetchPosts = async () => {
   const res = await fetch('https://jsonplaceholder.typicode.com/posts/');

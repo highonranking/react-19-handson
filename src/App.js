@@ -2,6 +2,10 @@ import './App.css';
 import Profile from './components/Profile';
 import Posts from './components/Post';
 import Message from './components/Message';
+import ThemeOld from './components/Theme.old';
+import Theme from './components/Theme';
+
+
 function App() {
   return (
     <>
@@ -11,6 +15,9 @@ function App() {
       <Posts/>
     </div>
     <Message/>
+
+    <ThemeOld/>
+    <Theme/>
     </div> 
     </>
   );
